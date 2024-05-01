@@ -37,9 +37,8 @@ const gameOver = (isVictory) => {
     gameModal.classList.add("show");
 }
 
-const initGame = (button, clickedLetter) => {
-    // Check if button is provided, if not, it's a keyboard input
-    const inputLetter = button ? button.innerText.toLowerCase() : clickedLetter;
+const initGame = (inputLetter) => {
+    inputLetter = inputLetter.toLowerCase(); // Convert input letter to lowercase
     
     // Checking if inputLetter is exist on the currentWord
     if(currentWord.includes(inputLetter)) {
@@ -57,17 +56,29 @@ const initGame = (button, clickedLetter) => {
         hangmanImage.src = `images/hangman-${wrongGuessCount}.svg`;
     }
 
-    // Disable button if it's a button click
-    if (button) {
-        button.disabled = true; // Disabling the clicked button so user can't click again
+    // Disable corresponding button if it's a letter input
+    if (inputLetter.length === 1) {
+        const button = keyboardDiv.querySelector(`button[data-letter="${inputLetter}"]`);
+        if (button) {
+            button.disabled = true;
+        }
     }
-    
+
     guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
 
-    // Calling gameOver function if any of these condition meets
+    // Calling gameOver function if any of these conditions are met
     if(wrongGuessCount === maxGuesses) return gameOver(false);
     if(correctLetters.length === currentWord.length) return gameOver(true);
 }
+
+// Function to handle keyboard input
+document.addEventListener('keydown', (event) => {
+    const key = event.key.toLowerCase();
+    if (/^[a-z]$/.test(key)) {
+        initGame(key); // Call initGame function with the pressed letter
+    }
+});
+
 
 
 // Creating keyboard buttons and adding event listeners
@@ -79,14 +90,14 @@ for (let i = 97; i <= 122; i++) {
 }
 
 // function to handle the key presses on the keyboard
-document.addEventListener('keydown', (event) => {
-    const key = event.key.toLowerCase();
-    if (/^[a-z]$/.test(key)) {
-        const button = keyboardDiv.querySelector(`button[data-letter="${key}"]`);
-        if (button && !button.disabled) {
-            initGame(button, key);
-        }
-    }
-});
+// document.addEventListener('keydown', (event) => {
+//     const key = event.key.toLowerCase();
+//     if (/^[a-z]$/.test(key)) {
+//         const button = keyboardDiv.querySelector(`button[data-letter="${key}"]`);
+//         if (button && !button.disabled) {
+//             initGame(button, key);
+//         }
+//     }
+// });
 getRandomWord();
 playAgainBtn.addEventListener("click", getRandomWord);
