@@ -69,5 +69,15 @@ for (let i = 97; i <= 122; i++) {
     button.addEventListener("click", (e) => initGame(e.target, String.fromCharCode(i)));
 }
 
+// function to handle the key presses on the keyboard
+document.addEventListener('keydown', (event) => {
+    const key = event.key.toLowerCase();
+    if (/^[a-z]$/.test(key)) {
+        const button = keyboardDiv.querySelector(`button[data-letter="${key}"]`);
+        if (button && !button.disabled) {
+            initGame(button, key);
+        }
+    }
+});
 getRandomWord();
 playAgainBtn.addEventListener("click", getRandomWord);
