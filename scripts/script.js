@@ -38,28 +38,37 @@ const gameOver = (isVictory) => {
 }
 
 const initGame = (button, clickedLetter) => {
-    // Checking if clickedLetter is exist on the currentWord
-    if(currentWord.includes(clickedLetter)) {
+    // Check if button is provided, if not, it's a keyboard input
+    const inputLetter = button ? button.innerText.toLowerCase() : clickedLetter;
+    
+    // Checking if inputLetter is exist on the currentWord
+    if(currentWord.includes(inputLetter)) {
         // Showing all correct letters on the word display
         [...currentWord].forEach((letter, index) => {
-            if(letter === clickedLetter) {
+            if(letter === inputLetter) {
                 correctLetters.push(letter);
                 wordDisplay.querySelectorAll("li")[index].innerText = letter;
                 wordDisplay.querySelectorAll("li")[index].classList.add("guessed");
             }
         });
     } else {
-        // If clicked letter doesn't exist then update the wrongGuessCount and hangman image
+        // If input letter doesn't exist then update the wrongGuessCount and hangman image
         wrongGuessCount++;
         hangmanImage.src = `images/hangman-${wrongGuessCount}.svg`;
     }
-    button.disabled = true; // Disabling the clicked button so user can't click again
+
+    // Disable button if it's a button click
+    if (button) {
+        button.disabled = true; // Disabling the clicked button so user can't click again
+    }
+    
     guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
 
     // Calling gameOver function if any of these condition meets
     if(wrongGuessCount === maxGuesses) return gameOver(false);
     if(correctLetters.length === currentWord.length) return gameOver(true);
 }
+
 
 // Creating keyboard buttons and adding event listeners
 for (let i = 97; i <= 122; i++) {
