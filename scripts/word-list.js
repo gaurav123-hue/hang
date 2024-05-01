@@ -259,4 +259,394 @@ const wordList = [
         word: "brilliant",
         hint: "Exceptionally clever, talented, or impressive."
     },
+    // Additional words start here
+    {
+        word: "fountain",
+        hint: "A structure that sends water into the air."
+    },
+    {
+        word: "carousel",
+        hint: "A rotating machine with seats for amusement rides."
+    },
+    {
+        word: "quicksand",
+        hint: "A deep, soft, wet area of sand that can swallow objects."
+    },
+    {
+        word: "solar",
+        hint: "Relating to the sun."
+    },
+    {
+        word: "mermaid",
+        hint: "A mythical creature with the upper body of a human and the lower body of a fish."
+    },
+    {
+        word: "avalanche",
+        hint: "A sudden and powerful snowslide."
+    },
+    {
+        word: "helicopter",
+        hint: "A type of aircraft with rotating blades that enable it to hover and move vertically and horizontally."
+    },
+    {
+        word: "whirlpool",
+        hint: "A swirling body of water produced by opposing currents."
+    },
+    {
+        word: "tornado",
+        hint: "A violent rotating column of air extending from a thunderstorm to the ground."
+    },
+    {
+        word: "boulevard",
+        hint: "A wide street in a city, typically lined with trees."
+    },
+    {
+        word: "gondola",
+        hint: "A narrow boat used in Venice, propelled by a person standing at the stern and rowing with a single oar."
+    },
+    {
+        word: "tundra",
+        hint: "A vast, flat, treeless Arctic region."
+    },
+    {
+        word: "dolphin",
+        hint: "A highly intelligent marine mammal with a streamlined body and a dorsal fin."
+    },
+    {
+        word: "lighthouse",
+        hint: "A tall tower with a light to guide ships at sea."
+    },
+    {
+        word: "penguin",
+        hint: "A flightless bird found in the Southern Hemisphere, known for its distinctive black and white coloring."
+    },
+    {
+        word: "avalanche",
+        hint: "A sudden and powerful snowslide."
+    },
+    {
+        word: "butterfly",
+        hint: "An insect with colorful wings and a slender body."
+    },
+    {
+        word: "caterpillar",
+        hint: "The larval stage of a butterfly or moth."
+    },
+    {
+        word: "eclipse",
+        hint: "The partial or complete obscuring of one celestial body by another."
+    },
+    {
+        word: "tornado",
+        hint: "A violent rotating column of air extending from a thunderstorm to the ground."
+    },
+    {
+        word: "monsoon",
+        hint: "A seasonal prevailing wind in the region of South and Southeast Asia, bringing heavy rain."
+    },
+    {
+        word: "hurricane",
+        hint: "A tropical cyclone with winds of 74 miles per hour or greater, typically accompanied by heavy rain and thunderstorms."
+    },
+    {
+        word: "glacier",
+        hint: "A large persistent body of ice moving slowly over land."
+    },
+    {
+        word: "fog",
+        hint: "A thick cloud of tiny water droplets suspended in the atmosphere near the ground."
+    },
+    {
+        word: "comet",
+        hint: "A celestial object consisting of a nucleus of ice and dust that becomes luminous as it passes near the sun."
+    },
+    {
+        word: "magnet",
+        hint: "An object that produces a magnetic field."
+    },
+    {
+        word: "tsunami",
+        hint: "A long high sea wave caused by an earthquake, submarine landslide, or other disturbance."
+    },
+    {
+        word: "glow",
+        hint: "To emit a steady light."
+    },
+    {
+        word: "crater",
+        hint: "A large, bowl-shaped cavity in the ground caused by the impact of a meteorite, volcanic activity, or an explosion."
+    },
+    {
+        word: "astronaut",
+        hint: "A person trained to travel and work in space."
+    },
+    {
+        word: "solar",
+        hint: "Relating to the sun."
+    },
+    {
+        word: "mermaid",
+        hint: "A mythical creature with the upper body of a human and the lower body of a fish."
+    },
+    {
+        word: "avalanche",
+        hint: "A sudden and powerful snowslide."
+    },
+    {
+        word: "helicopter",
+        hint: "A type of aircraft with rotating blades that enable it to hover and move vertically and horizontally."
+    },
+    {
+        word: "whirlpool",
+        hint: "A swirling body of water produced by opposing currents."
+    },
+    {
+        word: "tornado",
+        hint: "A violent rotating column of air extending from a thunderstorm to the ground."
+    },
+    {
+        word: "boulevard",
+        hint: "A wide street in a city, typically lined with trees."
+    },
+    {
+        word: "gondola",
+        hint: "A narrow boat used in Venice, propelled by a person standing at the stern and rowing with a single oar."
+    },
+    {
+        word: "tundra",
+        hint: "A vast, flat, treeless Arctic region."
+    },
+    {
+        word: "dolphin",
+        hint: "A highly intelligent marine mammal with a streamlined body and a dorsal fin."
+    },
+    {
+        word: "lighthouse",
+        hint: "A tall tower with a light to guide ships at sea."
+    },
+    {
+        word: "penguin",
+        hint: "A flightless bird found in the Southern Hemisphere, known for its distinctive black and white coloring."
+    },
+    {
+        word: "avalanche",
+        hint: "A sudden and powerful snowslide."
+    },
+    {
+        word: "butterfly",
+        hint: "An insect with colorful wings and a slender body."
+    },
+    {
+        word: "caterpillar",
+        hint: "The larval stage of a butterfly or moth."
+    },
+    {
+        word: "eclipse",
+        hint: "The partial or complete obscuring of one celestial body by another."
+    },
+    {
+        word: "tornado",
+        hint: "A violent rotating column of air extending from a thunderstorm to the ground."
+    },
+    {
+        word: "monsoon",
+        hint: "A seasonal prevailing wind in the region of South and Southeast Asia, bringing heavy rain."
+    },
+    {
+        word: "hurricane",
+        hint: "A tropical cyclone with winds of 74 miles per hour or greater, typically accompanied by heavy rain and thunderstorms."
+    },
+    {
+        word: "glacier",
+        hint: "A large persistent body of ice moving slowly over land."
+    },
+    {
+        word: "fog",
+        hint: "A thick cloud of tiny water droplets suspended in the atmosphere near the ground."
+    },
+    {
+        word: "comet",
+        hint: "A celestial object consisting of a nucleus of ice and dust that becomes luminous as it passes near the sun."
+    },
+    {
+        word: "magnet",
+        hint: "An object that produces a magnetic field."
+    },
+    {
+        word: "tsunami",
+        hint: "A long high sea wave caused by an earthquake, submarine landslide, or other disturbance."
+    },
+    {
+        word: "glow",
+        hint: "To emit a steady light."
+    },
+    {
+        word: "crater",
+        hint: "A large, bowl-shaped cavity in the ground caused by the impact of a meteorite, volcanic activity, or an explosion."
+    },
+    // Feel free to continue adding more unique words and hints here...
+    // Continuing from the previous list...
+
+{
+    word: "book",
+    hint: "A written or printed work consisting of pages glued or sewn together along one side."
+},
+{
+    word: "tree",
+    hint: "A woody perennial plant, typically with a single stem or trunk growing to a considerable height."
+},
+{
+    word: "cat",
+    hint: "A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws."
+},
+{
+    word: "dog",
+    hint: "A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, and a barking, howling, or whining voice."
+},
+{
+    word: "house",
+    hint: "A building for human habitation, especially one that is lived in by a family or small group of people."
+},
+{
+    word: "car",
+    hint: "A road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people."
+},
+{
+    word: "apple",
+    hint: "The round fruit of a tree of the rose family, which typically has thin red or green skin and crisp flesh."
+},
+{
+    word: "ball",
+    hint: "A solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game."
+},
+{
+    word: "sun",
+    hint: "The star around which the Earth orbits, which provides light and heat for the Earth."
+},
+{
+    word: "moon",
+    hint: "The natural satellite of the Earth, visible (chiefly at night) by reflected light from the sun."
+},
+{
+    word: "fish",
+    hint: "A limbless cold-blooded vertebrate animal with gills and fins living wholly in water."
+},
+{
+    word: "bird",
+    hint: "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak."
+},
+{
+    word: "chair",
+    hint: "A separate seat for one person, typically with a back and four legs."
+},
+{
+    word: "table",
+    hint: "A piece of furniture with a flat top and one or more legs, providing a level surface for eating, writing, or working."
+},
+{
+    word: "phone",
+    hint: "A device used for transmitting sound or speech to a distant point, especially by means of an electrical wire or radio waves."
+},
+{
+    word: "clock",
+    hint: "An instrument for measuring and indicating time, typically by hands moving over a dial."
+},
+{
+    word: "pen",
+    hint: "An instrument for writing or drawing with ink, typically consisting of a metal nib or ball, or a nylon tip, fitted into a metal or plastic holder."
+},
+{
+    word: "door",
+    hint: "A hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle, or in the framework of a cupboard."
+},
+{
+    word: "window",
+    hint: "An opening in the wall or roof of a building or vehicle that is fitted with glass or other transparent material in a frame to admit light or air and allow people to see out."
+},
+{
+    word: "key",
+    hint: "A small piece of shaped metal with incisions cut to fit the wards of a particular lock, which is inserted into a lock and turned to open or close it."
+},
+{
+    word: "book",
+    hint: "A written or printed work consisting of pages glued or sewn together along one side."
+},
+{
+    word: "tree",
+    hint: "A woody perennial plant, typically with a single stem or trunk growing to a considerable height."
+},
+{
+    word: "cat",
+    hint: "A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws."
+},
+{
+    word: "dog",
+    hint: "A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, and a barking, howling, or whining voice."
+},
+{
+    word: "house",
+    hint: "A building for human habitation, especially one that is lived in by a family or small group of people."
+},
+{
+    word: "car",
+    hint: "A road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people."
+},
+{
+    word: "apple",
+    hint: "The round fruit of a tree of the rose family, which typically has thin red or green skin and crisp flesh."
+},
+{
+    word: "ball",
+    hint: "A solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game."
+},
+{
+    word: "sun",
+    hint: "The star around which the Earth orbits, which provides light and heat for the Earth."
+},
+{
+    word: "moon",
+    hint: "The natural satellite of the Earth, visible (chiefly at night) by reflected light from the sun."
+},
+{
+    word: "fish",
+    hint: "A limbless cold-blooded vertebrate animal with gills and fins living wholly in water."
+},
+{
+    word: "bird",
+    hint: "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak."
+},
+{
+    word: "chair",
+    hint: "A separate seat for one person, typically with a back and four legs."
+},
+{
+    word: "table",
+    hint: "A piece of furniture with a flat top and one or more legs, providing a level surface for eating, writing, or working."
+},
+{
+    word: "phone",
+    hint: "A device used for transmitting sound or speech to a distant point, especially by means of an electrical wire or radio waves."
+},
+{
+    word: "clock",
+    hint: "An instrument for measuring and indicating time, typically by hands moving over a dial."
+},
+{
+    word: "pen",
+    hint: "An instrument for writing or drawing with ink, typically consisting of a metal nib or ball, or a nylon tip, fitted into a metal or plastic holder."
+},
+{
+    word: "door",
+    hint: "A hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle, or in the framework of a cupboard."
+},
+{
+    word: "window",
+    hint: "An opening in the wall or roof of a building or vehicle that is fitted with glass or other transparent material in a frame to admit light or air and allow people to see out."
+},
+{
+    word: "key",
+    hint: "A small piece of shaped metal with incisions cut to fit the wards of a particular lock, which is inserted into a lock and turned to open or close it."
+},
+// Feel free to continue adding more basic words and hints here...
+
 ];
